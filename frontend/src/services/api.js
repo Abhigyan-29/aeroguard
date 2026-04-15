@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: "https://aeroguard-backend-y4rh.onrender.com/"
 });
 
 // Attach JWT token to requests if available
